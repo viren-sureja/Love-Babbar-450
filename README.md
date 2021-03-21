@@ -5,7 +5,7 @@ I here by being a coder share solution just for the purpose to help friends and 
 # Note
 
 -  Respected viewers 🙏, please jump to codeBase if you have tried problem few times.
--  whole section of similar type problems solutions will be added, once it's completed, thanks for patience.
+-  whole section of similar type problems solutions will be added, once it's completed.
 
 # Credits
 
