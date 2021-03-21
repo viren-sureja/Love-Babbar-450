@@ -2,7 +2,9 @@
 
 I here by being a coder share solution just for the purpose to help friends and not credits ✌.
 
--  Respected viewers 🙏, please jump to codeBase if you have tried problem few times.
+# Note
+
+Respected viewers 🙏, please jump to codeBase if you have tried problem few times.
 
 # Credits
 
