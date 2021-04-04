@@ -24,5 +24,6 @@ Here I will list all resource credits
 -  <a href="https://www.youtube.com/channel/UC7rNzgC2fEBVpb-q_acpsmw">Pepcoding</a>
 -  <a href="https://www.youtube.com/channel/UC__WEiLwRXmgTHZQ4hYAk_w">Code Library</a>
 -  <a href="https://leetcode.com/">Leetcode</a>
+-  <a href="https://www.youtube.com/channel/UC9JWnvl5ZjZv09F5RqiLptw">Scaler Academy</a>
 
 <!-- -  <a href="">geeks for geeks</a> -->
