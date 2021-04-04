@@ -1,7 +1,8 @@
 /*
     link: https://practice.geeksforgeeks.org/problems/power-of-2-1587115620/1#
-
 */
+
+// ----------------------------------------------------------------------------------------------------------------------- //
 
 // method 1 (naive method) ( :) not for corporate use)
 bool isPowerofTwo(long long n) {
@@ -10,6 +11,8 @@ bool isPowerofTwo(long long n) {
     if (floor(power) == power) return true;
     else return false;
 }
+
+// ----------------------------------------------------------------------------------------------------------------------- //
 
 // method 2
 // TC: O(log N)
@@ -26,3 +29,5 @@ bool isPowerofTwo(long long n) {
     if (countSetBit(n) == 1LL) return true;
     return false;
 }
+
+// ----------------------------------------------------------------------------------------------------------------------- //

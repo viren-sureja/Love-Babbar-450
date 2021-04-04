@@ -1,17 +1,21 @@
-// link: https://practice.geeksforgeeks.org/problems/finding-the-numbers0215/1
-// sol: https://www.geeksforgeeks.org/find-two-non-repeating-elements-in-an-array-of-repeating-elements/
-// video: https://www.youtube.com/watch?v=pnx5JA9LNM4
-
 /*
-to find the least set bit :     a & ~(a - 1);
-alternative:
-    int i = 0;
-    int a = 1;
-    while (true) {
-        a = 1 << i;
-        if (main_xor & (1 << i++)) break;
-    }
+
+    link: https://practice.geeksforgeeks.org/problems/finding-the-numbers0215/1
+    sol: https://www.geeksforgeeks.org/find-two-non-repeating-elements-in-an-array-of-repeating-elements/
+    video: https://www.youtube.com/watch?v=pnx5JA9LNM4
+
+
+    to find the least set bit :     a & ~(a - 1);
+    alternative:
+        int i = 0;
+        int a = 1;
+        while (true) {
+            a = 1 << i;
+            if (main_xor & (1 << i++)) break;
+        }
 */
+
+// ----------------------------------------------------------------------------------------------------------------------- //
 
 vector<int> singleNumber(vector<int> nums)
 {
@@ -41,3 +45,5 @@ vector<int> singleNumber(vector<int> nums)
     if (x < y) return { x,y };
     else return { y, x };
 }
+
+// ----------------------------------------------------------------------------------------------------------------------- //

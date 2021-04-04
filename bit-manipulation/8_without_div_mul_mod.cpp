@@ -3,6 +3,8 @@
     video: https://www.youtube.com/watch?v=bdxJHWIyyqI
 */
 
+// ----------------------------------------------------------------------------------------------------------------------- //
+
 // TC: O(a)
 int without_DMM(int dividend, int divisor) {
     int sign = ((dividend < 0) ^ (divisor < 0)) ? -1 : 1;
@@ -17,6 +19,8 @@ int without_DMM(int dividend, int divisor) {
     }
     return quotient * sign;
 }
+
+// ----------------------------------------------------------------------------------------------------------------------- //
 
 // TC: O(log(a))
 int without_DMM(int dividend, int divisor) {
@@ -37,3 +41,5 @@ int without_DMM(int dividend, int divisor) {
 
     return quotient * sign;
 }
+
+// ----------------------------------------------------------------------------------------------------------------------- //

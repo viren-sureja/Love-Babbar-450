@@ -2,6 +2,7 @@
     link: https://practice.geeksforgeeks.org/problems/power-set4302/1
 */
 
+// ----------------------------------------------------------------------------------------------------------------------- //
 
 // TC: O(2^n)
 vector<string> AllPossibleStrings(string s) {
@@ -21,3 +22,5 @@ vector<string> AllPossibleStrings(string s) {
     sort(ans.begin(), ans.end());
     return ans;
 }
+
+// ----------------------------------------------------------------------------------------------------------------------- //
