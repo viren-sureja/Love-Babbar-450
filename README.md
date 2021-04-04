@@ -1,11 +1,10 @@
 # Disclaimer
 
-I here by being a coder share solution just for the purpose to help friends and not credits ✌.
+solution are share just for the purpose to help beginner and not for credits ✌.
 
 # Note
 
--  Respected viewers 🙏, please jump to codeBase if you have tried problem few times.
--  whole section of similar type problems solutions will be added, once it's completed.
+-  Respected viewers 🙏, please redirect to codeBase if and only if you have tried problem few times.
 -  If somewhere it's written "refer onenote" then I would try my best to add it ASAP.
 
 # Credits
@@ -20,4 +19,9 @@ I here by being a coder share solution just for the purpose to help friends and 
 Here I will list all resource credits
 
 -  <a href="https://www.geeksforgeeks.org/">geeks for geeks</a>
+-  <a href="https://www.youtube.com/channel/UC5WO7o71wvxMxEtLRkPhiQQ">Aditya Verma</a>
+-  <a href="https://www.youtube.com/channel/UC7rNzgC2fEBVpb-q_acpsmw">Pepcoding</a>
+-  <a href="https://www.youtube.com/channel/UC__WEiLwRXmgTHZQ4hYAk_w">Code Library</a>
+-  <a href="https://leetcode.com/">Leetcode</a>
+
 <!-- -  <a href="">geeks for geeks</a> -->
