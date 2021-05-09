@@ -1,11 +1,10 @@
 # Disclaimer
 
-solution are share just for the purpose to help beginner and not for credits ✌.
+solution are shared just for the purpose to help beginner, to revise and not for credits ✌.
 
 # Note
 
 -  Respected viewers 🙏, please redirect to solution if and only if you have tried problem few times.
--  If somewhere it's written "refer onenote" then I would try my best to add it ASAP.
 
 # Credits
 
