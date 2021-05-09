@@ -1,6 +1,6 @@
 # Disclaimer
 
-solution are shared just for the purpose to help beginner, to revise and not for credits ✌.
+solution are shared just for the purpose to help beginner, **to revise** and not for credits ✌.
 
 # Note
 
