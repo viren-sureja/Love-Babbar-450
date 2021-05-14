@@ -6,6 +6,26 @@
 
 // ----------------------------------------------------------------------------------------------------------------------- //
 vector<vector<int>> merge(vector<vector<int>>& intervals) {
+    int n = intervals.size();
+    int idx = 0;
+    for (int i = 1;i < n;i++) {
+        long long& idx_end = intervals[idx].second;
+        if (idx_end >= intervals[i].first) {
+            idx_end = max(idx_end, intervals[i].first);
+        }
+        else {
+            idx++;
+            intervals[idx] = intervals[i];
+        }
+    }
+
+    vector<vector<int>> ans(intervals.begin(), intervals.begin() + idx + 1);
+    return ans;
+}
+
+
+// ----------------------------------------------------------------------------------------------------------------------- //
+vector<vector<int>> merge(vector<vector<int>>& intervals) {
     vector<vector<int>> ans;
     int k = 0;
     sort(intervals.begin(), intervals.end());
