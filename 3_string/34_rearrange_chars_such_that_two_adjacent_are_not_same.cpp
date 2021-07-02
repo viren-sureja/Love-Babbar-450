@@ -1,3 +1,0 @@
-/*
-    note: not accessible
-*/
