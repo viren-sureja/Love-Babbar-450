@@ -6,8 +6,8 @@
 
 
 // ----------------------------------------------------------------------------------------------------------------------- //
-int LongestRepeatingSubsequence(string s){
-	int n = s.size();
+int LongestRepeatingSubsequence(string str){
+	int n = str.size();
     
 	int memo[n+1][n+1];
     
@@ -16,7 +16,7 @@ int LongestRepeatingSubsequence(string s){
 		     if(i == 0 or j == 0)
 		         memo[i][j] = 0;
 		                
-		     else if(s[i-1] == s[j-1] and i != j)
+		     else if(str[i-1] == str[j-1] and i != j)
 		         memo[i][j] = 1 + memo[i-1][j-1];
 		                
 		     else
