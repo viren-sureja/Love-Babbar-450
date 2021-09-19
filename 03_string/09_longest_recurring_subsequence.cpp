@@ -24,6 +24,5 @@ int LongestRepeatingSubsequence(string str){
 		 }
 	}
 		    
-	return memo[n][n];
-		    
+	return memo[n][n];		    
 }
