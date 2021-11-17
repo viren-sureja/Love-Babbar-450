@@ -7,6 +7,8 @@
 
 // ----------------------------------------------------------------------------------------------------------------------- //
 // O(N)
+#include<iostream>
+using namespace std;
 int main()
 {
     int arr[] = { 1000, 11, 445,
@@ -14,7 +16,7 @@ int main()
     int arr_size = 6;
 
     int mx = arr[0];
-    int mn = arr[1];
+    int mn = arr[0];
 
     for (int i = 1;i < arr_size;i++) {
         if (arr[i] > mx) mx = arr[i];
