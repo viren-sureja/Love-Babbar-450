@@ -47,8 +47,7 @@ void merge(int ar1[], int ar2[], int n, int m)
         int i, last = ar1[n - 1];
 
         // here array will be making space for the new element to insert
-        for (i = n - 2; i >= 0
-            && ar1[i] > ar2[j]; i--)
+        for (i = n - 2; i >= 0 && ar1[i] > ar2[j]; i--)
             ar1[i + 1] = ar1[i];
 
         // If there was a greater element

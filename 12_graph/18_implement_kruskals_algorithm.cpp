@@ -47,6 +47,7 @@ void unionn(int u, int v, vector<int>& parent, vector<int>& rank) {
         rank[u]++;
     }
 }
+
 int main() {
     int N, m;
     cin >> N >> m;
