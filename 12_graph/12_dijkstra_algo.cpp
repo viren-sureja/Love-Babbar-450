@@ -50,7 +50,6 @@ int main() {
                 pq.push(make_pair(distTo[next], next));
             }
         }
-
     }
 
     cout << "The distances from source, " << source << ", are : \n";

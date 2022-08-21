@@ -3,7 +3,7 @@
 
     video (recommended to save time): https://youtu.be/kQ1mJlwW-c0
 
-    condition here is convertion counts if (arr[i]>arr[j] && i<j) <-- keep in mind everytime
+    condition here is convertion counts if (arr[i]>arr[j] && i<j) <-- keep this in mind everytime
 */
 
 

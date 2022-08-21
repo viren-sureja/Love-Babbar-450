@@ -21,8 +21,8 @@ void arrange(int a[], int n) {
         }
         else if (a[negi] > 0 && a[posi] > 0) posi--;
         else {
-            low++;
-            high--;
+            negi++;
+            posi--;
         }
     }
 }
