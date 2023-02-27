@@ -21,3 +21,26 @@ int PalinArray(int a[], int n)
     }
     return 1;
 }
+/*
+In Java
+bool isPalindrom(int n) {
+    String str = new String(n);
+    String temp = str;
+    StringBuilder sb = new StringBuilder(str);
+    sb = sb.reverse();
+    if(sb.toString() == temp){
+        return true;
+    }
+    else{
+        return false;
+    }
+    
+
+
+
+
+
+
+
+
+*/
