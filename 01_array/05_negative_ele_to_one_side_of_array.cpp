@@ -15,9 +15,9 @@ void arrange(int a[], int n) {
             negi++;
         }
         else if (a[negi] > 0 && a[posi] < 0) {
-            swap(a[negi], a[pos]);
+            swap(a[negi], a[posi]);
             negi++;
-            pos--;
+            posi--;
         }
         else if (a[negi] > 0 && a[posi] > 0) posi--;
         else {
